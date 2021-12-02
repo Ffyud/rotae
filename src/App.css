@@ -1,0 +1,49 @@
+:root {
+  --rich-black: #000814;
+  --oxford-blue: #001D3D;
+  --prussian-blue: #003566;
+  --mikado-yellow: #FFC300;
+  --web-golden: #FFD60A;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.car-photo { grid-area: a; }
+.car-name { grid-area: b; background: var(--web-golden); color: var(--rich-black);}
+.car-general { grid-area: c; }
+.car-drivetrain { grid-area: d; }
+.car-engine { grid-area: e; }
+.car-fuel { grid-area: f; }
+.car-carriage { grid-area: g; }
+.car-weight { grid-area: h; }
+.car-luggage-space { grid-area: i; }
+.car-interior-measurement { grid-area: j;}
+.car-exterior-measurement { grid-area: k;}
+.car-safety { grid-area: l;}
+.car-comfort { grid-area: m;}
+.car-interior-features { grid-area: n;}
+.car-exterior-features { grid-area: o;}
+.car-price { grid-area: p;}
+
+.container {
+  max-width: 1800px;
+  margin: 0px auto;
+  display: grid;
+  grid-gap: 0px;
+  /* grid-template-columns: 50px 50px 50px 50px; */
+  /* grid-template-rows: auto; */
+  grid-template-areas: 
+    "b b b b"
+    "a a c c"
+    "d d e e"
+    "f f g h"
+    "i j k l"
+    "m n o p";
+}
+
+.container div {
+  padding: 10px;
+}

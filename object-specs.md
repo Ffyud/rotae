@@ -1,3 +1,8 @@
+- Merk
+- Handelsnaam
+- Uitvoering
+
+
 ### 1 ALGEMEEN
 arrosserie		3-deurs, hatchback
 transmissie		5 v., semi-automaat
